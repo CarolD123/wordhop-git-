@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Workshop-GIT 1</title>
+</head>
+<body>
+<main>
+<header>
+    <h1>Workshop-GIT 1</h1>
+    <p>Aprendiendo Git</p>
+</header>
+
+ <section id="control de versiones">
+   <h2>Control De Versiones </h2>
+    <p>Un control de versiones es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante. Aunque en los ejemplos de este libro usarás archivos de código fuente como aquellos cuya versión está siendo controlada, en realidad puedes hacer lo mismo con casi cualquier tipo de archivo que encuentres en una computadora</p>
+    <img src="imag/Control De Versiones1.png" alt="">
+ </section>
+
+ <section id="git">
+    <h2>Que es un GIT</h2>
+    <p>el sistema de control de versiones moderno más utilizado del mundo. Git es un proyecto de código abierto maduro y con un mantenimiento activo que desarrolló originalmente Linus Torvalds, el famoso creador del kernel del sistema operativo Linux, en 2005. Un asombroso número de proyectos de software dependen de Git para el control de versiones, incluidos proyectos comerciales y de código abierto</p>
+    <img src="imag/Git2.png" alt="">
+</section>
+
+<section id="Repositorio">
+    <h2>Que Es Un Repositorio?</h2>
+    <p>es un tipo de almacenamiento digital centralizado que los desarrolladores utilizan para realizar y administrar cambios en el código fuente de una aplicación. Los desarrolladores tienen que almacenar y compartir carpetas, archivos de texto y otros tipos de documentos al desarrollar software. Un repositorio cuenta con características que permiten a los desarrolladores rastrear con facilidad cambios en el código, editar archivos de manera simultánea y colaborar de forma eficiente en el mismo proyecto desde cualquier ubicación. </p>
+    <img src="imag/Repositorio3.jpg" alt="">
+</section>
+
+<section id="Repositoriolocal"></section>
+    <h2>Repositorio Local</h2>
+    <p>Es un contenedor de archivos que se encuentra en tu ordenador. Éste puede tener un proyecto lleno de diferentes archivos y es allí donde vas haciendo tus modificaciones y guardardolas para así, ir creando varias versiones. Cuando creas un repositorio local automáticamente se crea un directorio (.git) que no vas a poder verlo dentro de tus archivos pero que esta allí y es el que contiene todas las configuraciones de tu git (.git = repositorio entero).</p>
+    <img src="imag/repositoriolocal4.png" alt="">
+</section>
+
+<section id="Repositorioremoto">
+    <h2>Repositorio Remoto</h2>
+    <p>Son versiones de tu proyecto que están hospedadas en Internet o en cualquier otra red. Puedes tener varios de ellos, y en cada uno tendrás generalmente permisos de solo lectura o de lectura y escritura. Colaborar con otras personas implica gestionar estos repositorios remotos enviando y trayendo datos de ellos cada vez que necesites compartir tu trabajo</p>
+    <img src="imag/repositorioremoto5.webp" alt="">
+</section>
+
+<section id="github">
+    <h2>¿Qué es GITHUB?</h2>
+    <p>GitHub es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir códigos. 
+    Almacenar tu código en un "repositorio" en GitHub te permite: Presentar o compartir el trabajo.
+     Seguir y administrar los cambios en el código a lo largo del tiempo.</p>
+    <img src="imag/github6.jpg" alt="">
+</section>
+
+<section id="ramagit">
+    <h2>Que Es Una Rama En GIT</h2>
+    <P>Una rama es simplemente una versión de la colección de directorios y archivos del
+        repositorio. Cada vez que se crea una nueva rama, se crea una copia de la colección
+        de archivos actual.
+        A su vez, a partir de esta rama puedes crear más ramas. A veces puedes hacer que
+        estas ramas y los cambios que hayas podido realizar en sus ficheros o directorios sean
+        integrados en la rama principal. A esta acción, la de integrar una rama en otra, se le
+        llama merge o fusionar.</P>
+        <img src="imag/RamaEnGIT7.webp" alt="">
+    </section>
+
+<section id="colaboracionramas">   
+    <H3>Para Que Sirven Las Ramas</H3>
+    <p>En un entorno de colaboración, donde diferentes personas están trabajando en un
+        mismo código, se genera una evolución del código en paralelo. Mientras alguien está
+        trabajando en añadir una nueva característica al proyecto, otra persona puede estar
+        arreglando un bug y otra en añadir alguna documentación.
+        De esta forma, partiendo de un mismo código, se generan diferentes ramas. Esto sirve
+        para aislar el trabajo de cada persona y que, una vez concluido, se pueda integrar en
+        el tronco de nuestro repositorio que será, dicho de otro modo, la rama principal.</p>
+        <img src="imag/colaboracion7.png" alt="">
+</section>
+
+<section id="estadosgit">
+        <h2>Los Tres Estados en Git</h2>
+
+        <p>Al usar Git, los archivos de tu proyecto se pueden encontrar en uno de los siguientes
+            estados:</p>
+            <p>
+                <li>Modificado: El archivo contiene cambios pero todavía no han sido
+                    marcados para ser confirmados. Se encuentra en el directorio de trabajo.</li>
+                <li>Preparado: Son los archivos que han sido modificados en el directorio
+                    de trabajo y se han marcado como preparados para ser confirmados en el
+                    repositorio local. Se encuentran en un área temporal transitoria. Esta acción
+                    recibe el nombre de add. </li>
+                    <li>Confirmado:El archivo se encuentra grabado en el repositorio
+                        local. Esta acción recibe el nombre de commit.  </li>
+                </p>
+                <img src="imag/Estados en Git8.jpeg" alt="">
+ </section>
+   
+ <section id="comandos">
+    <h2>Consola o Linea De Comandos</h2>
+    <p>La línea de comandos es el único lugar en donde puedes ejecutar todos los comandos de Git - la mayoría de interfaces gráficas de usuario solo implementan una parte de las características de Git por motivos de simplicidad. Si tú sabes cómo realizar algo desde la línea de comandos, seguramente serás capaz de averiguar cómo hacer lo mismo desde una interfaz gráfica.</p>
+    <img src="imag/comando9.jpeg" alt="">
+</section>
+
+<section id="funcionamiento">
+    <ul>
+    <h1>Funcionamiento De Comandos</h1>
+    <li>Comando Linux Ls</li>
+    <p>Este listará todos los archivos situados en la posición actual. Si introduce el comando ls con un nombre de archivo determinado, listará sólo dicho archivo, si es que existe.</p>
+    <img src="imag/linuxls.png" alt="">
+    <li>Cd Directorio</li> 
+    <p>permite moverse entre directorios del sistema. Puedes cambiar de directorio especificando la ruta absoluta desde el directorio raíz o relativa desde tu ubicación actual, en Linux el directorio actual se indica con el signo .</p>
+    <img src="imag/cddirec.webp" alt="">
+    <li> Cd . .</li>
+    <p>es utilizado para moverse hacia arriba en la estructura de directorios desde el directorio actual al directorio que lo contiene (el directorio padre).</p>
+    <img src="imag/cd...webp" alt="">
+    <li>Comando Pwd</li>
+    <p>muestra el directorio actual en el que te encuentras trabajando en la línea de comandos o en la consola.</p>
+    <img src="imag/pwd.png" alt="">
+    <li>Mkdir Nombre</li>
+    <p>Es un comando básico pero esencial en sistemas Unix y Windows para crear nuevos directorios o carpetas en el sistema de archivos, proporcionando una forma sencilla de organizar y gestionar archivos y datos.</p>
+    <img src="imag/mkdir.webp" alt="">
+    <LI>Touch Nombre</LI>
+    <p>Su función principal es crear un archivo vacío con el nombre especificado o actualizar la marca de tiempo de un archivo existente</p>
+    <img src="imag/touch.png" alt="">
+</ul>
+<h2>Nombre y funcionamiento de los comandos utilizados</h2>
+<table>
+    <tr>
+        <td>git --version</td> 
+        <td>Indica la versión del del gitv</td>
+    </tr>
+    <tr>
+        <td>git init</td>
+        <td>iniciar el repositorio “se hace solo una vez”</td>
+    </tr>
+    <tr>
+        <td>git config user.name</td>
+        <td>Mostrar el nombre de usuario local que esta en Git</td>
+    </tr>
+    <tr>
+        <td>git config --global user.name</td>
+        <td>Ingresar el nombre de usuario</td>
+    </tr>
+    <tr>
+        <td>git config user.email</td>
+        <td>Mostrar el correo electrónico del usuario local en Git</td>
+    </tr>
+   <tr>
+         <td>git config --global user.email</td>
+         <td>Ingresar el correo electronico
+            personal</td>
+   </tr>
+   <tr>
+    <td> git clone</td>
+    <td>Verificar si existen otras cuentas de
+        github en el computador</td>
+   </tr>
+   <tr>
+    <td>git add</td>
+    <td>Esto añadirá los archivos indicados al
+        área de staging.</td>
+   </tr>
+   <tr>
+    <td>git status</td>
+    <td>Enumera todos los archivos nuevos o
+        modificados</td>
+   </tr>
+   <tr>
+    <td>git commit -m Add new search feature</td>
+    <td>Esto creará un nuevo commit en tu
+        repositorio y añadirá una referencia al
+        commit en la rama en la que estás
+        trabajando.</td>
+   </tr>
+   <tr>
+    <td>Git log</td>
+    <td>Enumera el historial de la versión para la rama actual</td>
+   </tr>
+    <tr>
+        <td>git add reame.md</td>
+        <td>para agregar cambios realizados en  el archivo</td>
+    </tr>
+    <tr>
+        <td>git commit -m "first commit"</td>
+        <td>crea un nuevo commit con los cambios que has agregado </td>
+    </tr>
+    <tr>
+        <td>git branch -m main</td>
+        <td>renombra la rama en la que te encuentras actualmente a main </td>
+    </tr>
+    <tr>
+        <td>git remote add origin </td>
+        <td>se utiliza para agregar un repositorio remoto  a tu repositorio local</td>
+    </tr>
+    <tr>
+        <td>git push -u origin main</td>
+        <td>se utiliza para enviar cambios locales a un repositorio remoto</td>
+    </tr>
+    <tr>
+        <td>git push origin main</td>
+        <td>comando que permite enviar
+            los cambios de un repositorio local a
+            un repositorio remoto.</td>
+    </tr>
+
+</table>
+</section>
+</main>
+</body>
+</html>
